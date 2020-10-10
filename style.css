@@ -1,0 +1,339 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+	
+	min-height:100vh;
+	font-family: Century Gothic;
+
+}
+
+header {
+  position: fixed;
+  min-width: 100vw;
+  z-index: 1;
+  
+
+}
+
+.nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0rem 3rem;
+  min-height: 10vh;
+  background-image:transparent;
+
+	
+}
+
+.nav h1 {
+  color: #ccf
+}
+.nav-bar {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  flex: 1;
+}
+
+.nav-items a {
+		margin-left:10px;
+  font-size: 2rem;
+  text-decoration: none;
+  color: #ccfff2;
+  padding: 0px 30px;
+  
+  
+  
+}
+
+.nav-items a:hover {
+	border:1px solid white;
+	border-radius:20px;
+
+	background-color:transparent;
+	color: #f2ffcc;
+	
+}
+
+.logo {
+	position:absolute;
+	margin-top:10px;
+	margin-left:40px;
+}
+
+.home h1 {
+	text-align:center;
+	color: white;
+	font-family: Papyrus;
+	font-size:70px;
+	border: 5px solid white;
+	margin-left:200px;
+	margin-top:50px;
+	display:block;
+	padding: 40px 40px 40px 40px;
+	width:330px;
+	
+
+}
+
+
+.home {
+	padding-top:70px;
+  min-height: 100vh;
+  position:relative;
+	background-image: url("sunset.jpg");
+	background-repeat: no-repeat;
+
+	background-size: 100%;
+}
+
+.nav img {
+	margin-left:300px;
+}
+
+
+.skills {
+		padding-top:70px;
+  min-height: 100vh;
+  background-color: #fccfda;
+}
+
+.skills h2 {
+	font-size:50px;
+}
+
+
+.skills li{
+	background-color:
+}
+
+.skill li{
+	background-color:white;
+}
+
+.contactme {
+	padding-top:70px;
+  min-height: 100vh;
+  background-color: #404040;
+  background-image: url("contactus1.jpg");
+  background-repeat:no-repeat;
+  background-size:100%;
+  display:relative;
+  
+}
+
+.contactme h2 {
+	font-size:50px;
+	
+}
+
+.contactme h1 {
+	margin-left: 12%;
+	color:#bfbfbf;
+}
+
+.profile {
+	min-height:100vh;
+	background-image: url("background.jpg");
+	background-repeat:no-repeat;
+	background-size: 100%;
+}
+
+	
+
+
+.holder h4 {
+	margin-top:29px;
+	margin-left:2%;
+	color:white;
+	float:left;
+	
+	
+}
+
+
+.holder img {
+	width:40px;
+	height:40px;
+	margin-top: 20px;
+	margin-left: 12%;
+	border:1px solid white;
+	padding:2px;
+	
+	display:block;
+}
+
+
+.email img {
+	width:40px;
+	height:40px;
+	margin-top: 20px;
+	margin-left: 12%;
+	border:1px solid white;
+	padding:2px;
+	
+	display:block;
+}
+
+.phone img {
+	width:40px;
+	height:40px;
+	margin-top: 20px;
+	margin-left: 12%;
+	border:1px solid white;
+	padding:2px;
+	
+	display:block;
+}
+.frame {
+	vertical-align:middle;
+}
+	
+.socialmedia img {
+	border:1px solid white;
+	width:40px;
+	height:40px;
+	display:inline;
+	
+}
+
+table {
+	margin-left:11%;
+	padding:5px 5px;
+	float:left;
+}
+
+
+.tab img {
+	width:40px;
+	height:40px;
+	margin-top: 20px;
+	margin-left: 12%;
+	border:1px solid white;
+	padding:2px;
+	
+	display:block;
+}
+
+.tab p{
+	text-align:left;
+	color:white;
+	margin-left:30px;
+	margin-top:5px;
+	font-size:20px
+	
+}
+
+.message {
+	
+	font-size: 20px;
+	color:white;
+	width:auto;
+	height:300px;
+	margin-right: 60px;
+	float:right;
+	
+}
+
+.message img {
+	width:50px;
+	border:1px solid white;
+	display:block;
+	margin-top:5px;
+	background-color:white;
+}
+
+.topna {
+	opacity: 0.5;
+	border:33px solid black;
+}
+
+.prof img{
+	margin-top:20px;
+	width:200px;
+	height:200px;
+	border:2px solid white;
+	border-radius:50%;
+	padding:3px;
+	margin-left:40px;
+	position:relative;
+}
+
+.prof {
+	position:relative;
+
+	margin-left:20px;
+	
+	width:270px;
+	height:530px;
+	float:left;
+}
+
+.prof::before {
+	content:"";
+	background-color:black;
+	width:270px;
+	height:530px;
+	position:absolute;
+	opacity:0.75;
+}
+.lab {
+	color:white;
+	position: relative;
+	margin-left:20px;
+	margin-top:10px;
+
+}
+
+.lab li {
+	list-style:none;
+}
+
+.intr {
+	margin-left:400px;
+	margin-top:100px;
+	padding-left:10px;
+	padding-bottom:10px;
+	background-color:black;
+	opacity:0.75;
+	position:relative;
+}
+
+
+.intr::before {
+	content:"";
+	background-color:black;
+	width:1000px;
+	height:290px;
+	position:absolute;
+	opacity:0.75;
+}
+
+.intr h1 {
+	font-family: Century Gothic;
+	font-size:60px;
+	color:yellow;
+	position:relative;
+}
+.intr p {
+	position:relative;
+	margin-top:30px;
+	color: #ecffb3;
+}
+
+.name {
+	
+}
+
+.name h2 {
+	position:relative;
+	margin-right:150px;
+	font-family: Arial Black;
+	font-size:70px;
+	color:#ffffe6;
+}
